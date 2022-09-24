@@ -1,3 +1,15 @@
-p {
-    color: red;
+@import url('https://fonts.googleapis.com/css?family=Abril Fatface|Martel');
+
+
+h1 {
+    font-family: 'Abril Fatface', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;    
 }
+
+h2 {
+    font-family: Martel, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;    
+}
+
