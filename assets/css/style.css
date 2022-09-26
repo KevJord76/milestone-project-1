@@ -1,54 +1,42 @@
 /* Font pairing discovered on fontjoy.com */
 @import url('https://fonts.googleapis.com/css?family=Abril Fatface|Martel');
 
-/* Header logo attributes */
-#logo {
-    float: left;
-    margin-right: 85px;
-    position: relative;    
-}
-
-/* Header 1 attributes */
-h1 {
-    font-family: 'Abril Fatface', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;    
-}
-
-/* Header 2 attributes */
-h2 {
-    font-family: Martel, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;    
-}
-
 /* Menu format */
 #menu {
     font-family: Martel, sans-serif;
     font-weight:bold;
     font-size: 115%;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    height: 40px;  
+    color: #000;  
 }
 
-/* Menu items format */
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
-/* Menu anchor elements format */
-#menu a {
+#menu #banner {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 135%;
+    text-transform: uppercase;
+    letter-spacing: 2px;   
+    float: left;  
+    margin-bottom: 15px;  
+    color: #000;   
+}
+
+#menu div ul a {
     text-decoration: none;
 }
 
-/* Menu anchor elements hover format */
 #menu a:hover {
-    color: rgb(119, 0, 255);
+    color:  rgb(119, 0, 255);
     border-color: rgb(119, 0, 255);
 }
 
-/* Menu active item format */
-.active {
-    border-bottom: 1px solid #3a3a3a;
+.menu-list-wrapper {
+    position: relative;
 }
+
