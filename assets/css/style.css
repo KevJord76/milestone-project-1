@@ -1,6 +1,20 @@
 /* Font pairing discovered on fontjoy.com */
 @import url('https://fonts.googleapis.com/css?family=Abril Fatface|Martel');
 
+/* Remove all of the margins, paddings and borders */ 
+*{
+    margin:0;
+    padding:0;
+    border:0;    
+}
+
+/* Headings 1,2,3 styling */
+h1, h2, h3 {
+    font-family: Fatface, sans-serif;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /* Main Header styling */
 .main-header {
     /* Picture taken from https://www.pexels.com/ */
@@ -9,5 +23,45 @@
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;    
+    text-align: center;    
+}
+
+/* Navigation styling */
+#nav {
+    font-size: 110%;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* Navigation list items styling */
+#nav li {
+    display: inline;
+}
+
+/* Navigation anchor elements styling */
+#nav a {
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation anchor hover elements styling */
+#nav a:hover{
+    color: rgb(255, 255, 255, .3);
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    
+    /* Headings 1,2,3 styling */
+    h1, h2, h3 {
+        font-size: 99%;
+    }
+
+    /* Navigation styling */
+    #nav {
+        font-size: 99%;
+    }
 }
