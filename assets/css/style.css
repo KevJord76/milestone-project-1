@@ -5,7 +5,7 @@
 *{
     margin:0;
     padding:0;
-    border:0;    
+    border:0;        
 }
 
 /* Headings 1,2,3 styling */
@@ -19,7 +19,7 @@ h1, h2, h3 {
 body p {
     font-family: Martel;
     font-weight: bold;
-    color: black;
+    color: #777;
 }
 
 /* Main Header styling */
@@ -56,8 +56,27 @@ body p {
 }
 
 /* Navigation anchor hover elements styling */
-#nav a:hover{
+#nav a:hover {
     color: rgb(255, 255, 255, .3);
+}
+
+/* Section content styling */
+.section-content {
+    margin: 1em;     
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 1.5em;    
+}
+
+/* Logo styling */
+.logo {
+    float: left;
+    height: 225px;
+    weight: 225px;    
+    margin: 25px;      
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -72,5 +91,31 @@ body p {
     body {
         font-size: 80%;
     }   
+
+    /* Logo styling */
+    .logo {
+        height: 180px;
+        weight: 180px;   
+
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+
+     /* Main Header styling */
+     .main-header {
+        height: 210px;
+    }
+
+     /* Body text styling */
+    body {
+        font-size: 60%;
+    }   
+
+    /* Logo styling */
+    .logo {
+        height: 135px;
+        weight: 135px;   
+    }
 
 }
