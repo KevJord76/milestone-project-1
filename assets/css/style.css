@@ -10,9 +10,16 @@
 
 /* Headings 1,2,3 styling */
 h1, h2, h3 {
-    font-family: Fatface, sans-serif;
+    font-family: 'Abril Fatface', sans-serif;
     letter-spacing: 2px;
     color: #252525;
+}
+
+/* Body text styling */
+body p {
+    font-family: Martel;
+    font-weight: bold;
+    color: black;
 }
 
 /* Main Header styling */
@@ -29,9 +36,10 @@ h1, h2, h3 {
 
 /* Navigation styling */
 #nav {
-    font-size: 110%;
+    font-size: 140%;
     letter-spacing: 4px;
     text-align: center;
+    font-weight: bold;
 }
 
 /* Navigation list items styling */
@@ -55,13 +63,14 @@ h1, h2, h3 {
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     
-    /* Headings 1,2,3 styling */
-    h1, h2, h3 {
-        font-size: 99%;
+    /* Main Header styling */
+    .main-header {
+        height: 280px;
     }
 
-    /* Navigation styling */
-    #nav {
-        font-size: 99%;
-    }
+     /* Body text styling */
+    body {
+        font-size: 80%;
+    }   
+
 }
