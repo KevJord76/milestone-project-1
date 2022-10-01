@@ -144,6 +144,12 @@ h1, h2, h3 {
     color: #3a3a3a;
 }
 
+.bandon-map {
+    padding: 4px 30px 4px 8px;    
+
+
+}
+
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     
