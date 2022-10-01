@@ -15,17 +15,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
-/* Body text styling */
-body p {
-    font-family: Martel;
-    font-weight: bold;
-    color: #777;
-}
-
 /* Main Header styling */
 .main-header {
     /* Picture taken from https://www.pexels.com/ */
-    background-image: url("/assets/images/header-background-image.webp");
+    background-image: url("/assets/images/header-background-image.webp"); 
     background-color: #cccccc;
     height: 350px;
     background-position: center;
@@ -36,7 +29,8 @@ body p {
 
 /* Navigation styling */
 #nav {
-    font-size: 140%;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 120%;
     letter-spacing: 4px;
     text-align: center;
     font-weight: bold;
@@ -79,19 +73,48 @@ body p {
     margin: 25px;      
 }
 
-table {
-    width: 100%;
+/* Festival-info text styling */
+.festival-info {
+    font-family: Martel;
+    font-weight: bold;
+    color: #777;
 }
 
-table th {
+/* Events table styling */
+.events-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    width: 95%;
+    margin: auto;
+    color: black;
+}
+
+/* Events table headings styling */
+.events-table th {
+    font-family: 'Abril Fatface', sans-serif;
+    font-weight: lighter;
+    font-size: 110%;
+    color: white;
     text-align: left;
-    background-color: #252525;
-    color: #fff;
-    padding: 4px 30px 4px 8px;
+    background-color: black;
+    padding: 4px 30px 4px 8px;    
 }
 
-table td {
-    border: 1px solid #e3e3e3;
+/* Events table rows data styling */
+.events-table tr {
+    border-bottom: 1px solid #777; 
+    border-left: 1px solid #777;;
+    border-right:  1px solid #777;;
+
+}
+
+/* Events table data styling */
+.events-table td {
+    font-family: Martel;
+    font-weight: bold;
+    text-align: left;
+    color: #777;   
+    padding: 4px 30px 4px 8px; 
 }
 
 /* For medium screens sizes from 950px wide and down */
