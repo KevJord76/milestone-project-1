@@ -31,9 +31,9 @@ h1, h2, h3 {
 #nav {
     font-family: 'Abril Fatface', sans-serif;
     font-size: 120%;
-    letter-spacing: 4px;
-    text-align: center;
     font-weight: bold;
+    letter-spacing: 4px;
+    text-align: center;    
 }
 
 /* Navigation list items styling */
@@ -56,9 +56,11 @@ h1, h2, h3 {
 
 /* Section content styling */
 .section-content {
-    margin: 1em;     
+    margin: 1em;  
+    text-align: justify;   
 }
 
+/* Section container styling */
 .container {
     max-width: 950px;
     margin: 0 auto;
@@ -70,7 +72,7 @@ h1, h2, h3 {
     float: left;
     height: 225px;
     weight: 225px;    
-    margin: 25px;      
+    margin: 10px;      
 }
 
 /* Festival-info text styling */
@@ -85,8 +87,7 @@ h1, h2, h3 {
     border-collapse: collapse;
     font-size: 0.9em;
     width: 95%;
-    margin: auto;
-    color: black;
+    margin: auto;   
 }
 
 /* Events table headings styling */
@@ -95,25 +96,23 @@ h1, h2, h3 {
     font-weight: lighter;
     font-size: 110%;
     color: white;
-    text-align: left;
     background-color: black;
+    text-align: left;    
+    border: 1px solid black;
     padding: 4px 30px 4px 8px;    
 }
 
 /* Events table rows data styling */
 .events-table tr {
-    border-bottom: 1px solid #777; 
-    border-left: 1px solid #777;;
-    border-right:  1px solid #777;;
-
+    border: 1px solid #777;    
 }
 
 /* Events table data styling */
 .events-table td {
     font-family: Martel;
     font-weight: bold;
-    text-align: left;
-    color: #777;   
+    color: #777;  
+    text-align: left;     
     padding: 4px 30px 4px 8px; 
 }
 
