@@ -79,6 +79,21 @@ body p {
     margin: 25px;      
 }
 
+table {
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    background-color: #252525;
+    color: #fff;
+    padding: 4px 30px 4px 8px;
+}
+
+table td {
+    border: 1px solid #e3e3e3;
+}
+
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     
