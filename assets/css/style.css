@@ -144,10 +144,25 @@ h1, h2, h3 {
     color: #3a3a3a;
 }
 
-.bandon-map {
-    padding: 4px 30px 4px 8px;    
+#map-section {
+    text-align: center;
+}
 
+/* Map container styling */
+#map-container {
+    width: 90%;
+    height: 500px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;    
+    margin: auto;
+}
 
+/* Map cover styling */
+#map-cover {
+    background: url("/assets/images/bandon-map.webp") no-repeat center center;
+    height: 100%;    
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -166,7 +181,13 @@ h1, h2, h3 {
     /* Logo styling */
     .logo {
         height: 180px;
-        weight: 180px;   
+        weight: 180px;  
+    }
+    
+    /* Map container styling */
+    #map-container {
+        height: 400px;        
+    }
 
 }
 
@@ -187,6 +208,11 @@ h1, h2, h3 {
     .logo {
         height: 135px;
         weight: 135px;   
+    }
+
+    /* Map container styling */
+    #map-container {
+        height: 300px;        
     }
 
 }

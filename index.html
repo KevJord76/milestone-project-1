@@ -17,8 +17,8 @@
             <!-- Navigation Items-->
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="#">EVENTS</a></li>
-                <li><a href="#">FEEDBACK</a></li>
+                <li><a href="#events-section">EVENTS</a></li>
+                <li><a href="#map-section">MAP</a></li>
             </ul>            
         </nav>
         <!-- Main Page Header Title -->
@@ -49,7 +49,7 @@
         <Br>
     </section>
     <!-- Table of Events-->
-    <section>
+    <section id="events-section">
        <!-- Table of events days, times and venues-->  
       <table class="events-table">
             <tr>
@@ -105,12 +105,15 @@
     
     </section>
     <!-- Map of Bandon-->
-    <section>
+    <section id="map-section">
+        <Br>
+        <h3>Map of Bandon Town</h3>
+        <Br>
         <!-- Picture taken from Google Maps -->
-        <div class="bandon-map">
-            <img src="assets/images/bandon-map.webp" alt="Google Map of Bandon Town"> 
-        </div>   
-    </section>
+        <div id="map-container">
+            <div id="map-cover"></div>
+        </div>        
+     </section>
      <!-- Page Footer -->
     <footer class="page-footer">
         <!-- Contact Details -->
