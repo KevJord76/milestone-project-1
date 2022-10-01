@@ -116,6 +116,34 @@ h1, h2, h3 {
     padding: 4px 30px 4px 8px; 
 }
 
+/* Page footer styling */
+.page-footer {
+    font-family: Martel;
+    font-weight: bold;
+    color: #777; 
+    margin: 25px;
+    text-align: center;
+    height: 150px;
+}
+
+/* Social networks styling */
+.social-networks {
+    text-align: center;    
+}
+
+/* Social networks list items styling */
+.social-networks li {
+    display: inline;
+}
+
+/* Social networks icons styling */
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #3a3a3a;
+}
+
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     
