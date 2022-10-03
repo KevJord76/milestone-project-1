@@ -20,11 +20,16 @@
     color: #777;
 }
 
-/* Text alignment */
+/* Text alignment center */
 .text-center {
     text-align: center;
 }
  
+/* Text alignment left */
+.text-left {
+    text-align: left;
+}
+
 /* Headings 1,2,3 styling */
 h1, h2, h3 {
     letter-spacing: 2px;
@@ -103,7 +108,6 @@ h1, h2, h3 {
     font-size: 110%;
     color: white;
     background-color: black;
-    text-align: left;    
     border: 1px solid black;
     padding: 4px 30px 4px 8px;    
 }
@@ -115,7 +119,6 @@ h1, h2, h3 {
 
 /* Events table data styling */
 .events-table td {
-    text-align: left;     
     padding: 4px 30px 4px 8px; 
 }
 
