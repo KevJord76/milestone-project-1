@@ -8,14 +8,30 @@
     border:0;        
 }
 
+/* Primary font text styling */
+.primary-font {
+    font-family: 'Abril Fatface', sans-serif;  
+}
+
+/* Secondary font text styling */
+.secondary-font {
+    font-family: Martel;
+    font-weight: bold;
+    color: #777;
+}
+
+/* Text alignment */
+.text-center {
+    text-align: center;
+}
+ 
 /* Headings 1,2,3 styling */
 h1, h2, h3 {
-    font-family: 'Abril Fatface', sans-serif;
     letter-spacing: 2px;
     color: #252525;
 }
 
-/* Main Header styling */
+/* Main header styling */
 .main-header {
     /* Picture taken from https://www.pexels.com/ */
     background-image: url("/assets/images/header-background-image.webp"); 
@@ -25,16 +41,13 @@ h1, h2, h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
-    text-align: center;    
 }
 
 /* Navigation styling */
 #nav {
-    font-family: 'Abril Fatface', sans-serif;
     font-size: 120%;
     font-weight: bold;
-    letter-spacing: 4px;
-    text-align: center;    
+    letter-spacing: 4px;     
 }
 
 /* Navigation list items styling */
@@ -76,13 +89,6 @@ h1, h2, h3 {
     margin: 10px;      
 }
 
-/* Festival-info text styling */
-.festival-info {
-    font-family: Martel;
-    font-weight: bold;
-    color: #777;
-}
-
 /* Events table styling */
 .events-table {
     border-collapse: collapse;
@@ -93,7 +99,6 @@ h1, h2, h3 {
 
 /* Events table headings styling */
 .events-table th {
-    font-family: 'Abril Fatface', sans-serif;
     font-weight: lighter;
     font-size: 110%;
     color: white;
@@ -110,16 +115,8 @@ h1, h2, h3 {
 
 /* Events table data styling */
 .events-table td {
-    font-family: Martel;
-    font-weight: bold;
-    color: #777;  
     text-align: left;     
     padding: 4px 30px 4px 8px; 
-}
-
-/* Map section styling */
-#map-section {
-    text-align: center;
 }
 
 /* Map container styling */
@@ -135,24 +132,15 @@ h1, h2, h3 {
 
 /* Map cover styling */
 #map-cover {
-    /* Picture (screenshot) Map of Bandon taken from Google Maps */
+    /* Picture (screenshot) map of Bandon taken from google maps */
     background: url("/assets/images/bandon-map.webp") no-repeat center center;
     height: 100%;    
 }
 
 /* Page footer styling */
 .page-footer {
-    font-family: Martel;
-    font-weight: bold;
-    color: #777; 
     margin: 25px;
-    text-align: center;
     height: 150px;
-}
-
-/* Social networks styling */
-.social-networks {
-    text-align: center;    
 }
 
 /* Social networks list items styling */
@@ -171,7 +159,7 @@ h1, h2, h3 {
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     
-    /* Main Header styling, 80% height of original */
+    /* Main header styling, 80% height of original */
     .main-header {
         height: 280px;
     }
@@ -197,7 +185,7 @@ h1, h2, h3 {
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
 
-     /* Main Header styling, 60% height of original */
+     /* Main header styling, 60% height of original */
      .main-header {
         height: 210px;
     }
