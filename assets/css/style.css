@@ -159,6 +159,71 @@ h1, h2, h3 {
     color: #3a3a3a;
 }
 
+/* Form section styling */
+.form-section {
+    clear: left;
+    background: url("/assets/images/football-goalkeeper.webp");
+    background-size: cover;
+    background-position: center;
+    height: 800px;    
+}
+
+/* Signup-form styling */
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%; 
+    padding: 30px; 
+}
+
+/* Signup-form h3 styling */
+.signup-form > h3 {
+    color: #fafafa;
+    margin-bottom: 20px;
+} 
+
+/* Text-input styling */
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+/* Textarea-input styling */
+#feedback-section form textarea {
+    height: 90px;
+}
+
+/* Text-input hover styling */
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+/* Feedback button styling */
+.feedback-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+/* Feedback button hover styling */
+.feedback-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     

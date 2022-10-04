@@ -23,6 +23,7 @@
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="#events-section">EVENTS</a></li>
                 <li><a href="#map-section">MAP</a></li>
+                <li><a href="#feedback-section">FEEDBACK</a></li>
             </ul>            
         </nav>
         <!-- Main page header title -->
@@ -34,7 +35,7 @@
     <!-- More info section -->
     <section class="section-content container">
         <!-- Add a blank line -->
-        <Br>
+        <br>
         <!-- Logo taken from https://www.bandonbusiness.com/bandon-businesses -->
         <img class="logo" src="assets/images/logo.webp" alt="Bandon Business Association logo">
         <!-- A little bit of background about the festival -->
@@ -51,7 +52,7 @@
         the 5th of August is a day of music events and Sunday the 6th of August sees the sporting events 
         taking place. Please see the events schedule below for more information.</p>
         <!-- Add a blank line -->
-        <Br>
+        <br>
     </section>
     
     <!-- Table of events -->
@@ -59,7 +60,7 @@
        <!-- Section heading -->
        <h2 class="primary-font text-center">Schedule of Events</h2>
        <!-- Add a blank line -->
-       <Br>
+       <br>
        <!-- Table of events: days, times and venues -->  
        <table class="events-table">
             <tr class="primary-font text-left">
@@ -117,14 +118,35 @@
     <!-- Map of Bandon -->
     <section id="map-section" class="text-center">
         <!-- Add a blank line -->
-        <Br>
+        <br>
+        <!-- Section heading -->
         <h3 class="primary-font">Map of Bandon Town</h3>
         <!-- Add a blank line -->
-        <Br>
+        <br>
         <!-- Picture (screenshot) map of Bandon taken from google maps placed here -->
         <div id="map-container">
             <div id="map-cover"></div>
         </div>        
+     </section>
+
+     <!-- Feedback section -->
+     <section id="feedback-section" class="form-section secondary-font">
+        <!-- Get some feedback from the users of the website -->
+        <form class="signup-form" action="url" method="GET">
+            <!-- Feedback header -->
+            <h3>Please give us your feedback!</h3>
+            <!-- Define the labels, input and textarea elements -->
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" type="text" name="first_name" required>
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" type="text" name="last_name" required>
+            <label for="email">Email Address</label>
+            <input class="text-input" id="email" type="email" name="email_address" required>
+            <label for="feedback">What do you want to know?</label>
+            <textarea class="text-input" id="feedback" name="feedback" cols=80 rows =5 required></textarea>              
+            <!-- Define the button element -->
+            <input class="feedback-button" type="submit" value="Give Feedback!">              
+        </form>          
      </section>
 
      <!-- Page footer -->
