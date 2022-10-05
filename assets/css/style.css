@@ -94,6 +94,10 @@ h1, h2, h3 {
     margin: 10px;      
 }
 
+.section-background {
+    background-color: #CACAD4;
+}
+
 /* Events table styling */
 .events-table {
     border-collapse: collapse;
@@ -162,10 +166,13 @@ h1, h2, h3 {
 /* Form section styling */
 .form-section {
     clear: left;
+    /* Picture taken from https://www.pexels.com/ */
     background: url("/assets/images/football-goalkeeper.webp");
+    /* Include in case the picture does not load */
+    background-color: #cccccc;
     background-size: cover;
     background-position: center;
-    height: 800px;    
+    height: 900px;      
 }
 
 /* Signup-form styling */
@@ -248,6 +255,10 @@ h1, h2, h3 {
         height: 400px;        
     }
 
+    .form-section {
+        height: 800px;      
+    }
+
 }
 
 /* For small screens sizes from 800px wide and down */
@@ -272,6 +283,10 @@ h1, h2, h3 {
     /* Map container styling, 60% height of original */
     #map-container {
         height: 300px;        
+    }
+
+    .form-section {
+        height: 700px;      
     }
 
 }
