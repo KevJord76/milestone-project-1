@@ -136,7 +136,7 @@ h1, h2, h3 {
 /* Map cover styling */
 #map-cover {
     /* Picture (screenshot) map of Bandon taken from google maps */
-    background: url("/assets/images/bandon-map.webp") no-repeat center center;
+    background: url("/assets/images/bandon-map.webp") no-repeat center;
     height: 100%;    
 }
 
@@ -145,7 +145,7 @@ h1, h2, h3 {
     background-color: #AE8F63;
     background-size: cover; 
     color: black;
-    margin: 25px;
+    margin: 1%;
     height: 175px;
 }
 
@@ -175,8 +175,8 @@ h1, h2, h3 {
     margin: 2%;
 }
 
-/* Signup-form styling */
-.signup-form {
+/* Feedback-form styling */
+.feedback-form {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -186,8 +186,8 @@ h1, h2, h3 {
     padding: 30px; 
 }
 
-/* Signup-form h3 styling */
-.signup-form > h3 {
+/* Feedback-form h3 styling */
+.feedback-form > h3 {
     color: #fafafa;
     margin-bottom: 20px;
 } 
@@ -218,7 +218,6 @@ h1, h2, h3 {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
-    text-align: center;
     font-size: 100%;
     background-color: #f16c6b;
     color: #fafafa;
@@ -229,6 +228,19 @@ h1, h2, h3 {
 .feedback-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/* Food section styling */
+.food-section {
+    clear: left;
+    /* Picture taken from https://www.pexels.com/ */
+    background: url("/assets/images/food.webp");
+    /* Include in case the picture does not load */
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    height: 860px;     
+    margin: 1%;
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -265,6 +277,11 @@ h1, h2, h3 {
         height: 140px;
     }
 
+    /* Food section styling, 80% height of original */
+    .food-section {
+        height: 688px;    
+    }
+
 }
 
 /* For small screens sizes from 800px wide and down */
@@ -299,6 +316,11 @@ h1, h2, h3 {
     /* Page footer styling, 60% height of original */
     .page-footer {
         height: 105px;
+    }
+
+    /* Food section styling, 60% height of original */
+    .food-section {
+        height: 516px;    
     }
 
 }
