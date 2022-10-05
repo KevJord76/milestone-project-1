@@ -94,10 +94,6 @@ h1, h2, h3 {
     margin: 10px;      
 }
 
-.section-background {
-    background-color: #CACAD4;
-}
-
 /* Events table styling */
 .events-table {
     border-collapse: collapse;
@@ -146,8 +142,11 @@ h1, h2, h3 {
 
 /* Page footer styling */
 .page-footer {
+    background-color: #AE8F63;
+    background-size: cover; 
+    color: black;
     margin: 25px;
-    height: 150px;
+    height: 175px;
 }
 
 /* Social networks list items styling */
@@ -172,7 +171,8 @@ h1, h2, h3 {
     background-color: #cccccc;
     background-size: cover;
     background-position: center;
-    height: 900px;      
+    height: 900px;     
+    margin: 2%;
 }
 
 /* Signup-form styling */
@@ -255,8 +255,14 @@ h1, h2, h3 {
         height: 400px;        
     }
 
+    /* Form section styling, make it smaller */
     .form-section {
         height: 800px;      
+    }
+
+    /* Page footer styling, 80% height of original */
+    .page-footer {
+        height: 140px;
     }
 
 }
@@ -285,8 +291,14 @@ h1, h2, h3 {
         height: 300px;        
     }
 
+    /* Form section styling, make it smaller */
     .form-section {
         height: 700px;      
+    }
+
+    /* Page footer styling, 60% height of original */
+    .page-footer {
+        height: 105px;
     }
 
 }
