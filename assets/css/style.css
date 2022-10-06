@@ -73,17 +73,9 @@ h1, h2, h3 {
     color: rgb(255, 255, 255, .3);
 }
 
-/* Section content styling */
-.section-content {
-    margin: 1em;  
-    text-align: justify;   
-}
-
-/* Section container styling */
-.container {
-    max-width: 950px;
-    margin: 0 auto;
-    padding: 0 1.5em;    
+/* Underline the active page */
+.active {
+    border-bottom: 3px solid #777;    
 }
 
 /* Logo styling */
@@ -92,6 +84,32 @@ h1, h2, h3 {
     height: 225px;
     weight: 225px;    
     margin: 10px;      
+}
+
+/* Info section content styling */
+.info-section {
+    margin: 1em;  
+    text-align: justify;   
+}
+
+/* Info section container styling */
+.info-container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 1.5em;    
+}
+
+/* Football section styling */
+.football-section {
+    clear: left;
+    /* Picture taken from https://www.pexels.com/ */
+    background: url("/assets/images/football-ladies.webp");
+    /* Include in case the picture does not load */
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    height: 700px;     
+    margin: 1%;
 }
 
 /* Events table styling */
@@ -122,11 +140,24 @@ h1, h2, h3 {
     padding: 4px 30px 4px 8px; 
 }
 
+/* Food section styling */
+.food-section {
+    clear: left;
+    /* Picture taken from https://www.pexels.com/ */
+    background: url("/assets/images/food.webp");
+    /* Include in case the picture does not load */
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    height: 860px;     
+    margin: 1%;
+}
+
 /* Map container styling */
 #map-container {
     width: 90%;
     height: 500px;
-    padding: 20px;
+    padding: 10px;
     border-style: solid;
     border-color: #cccccc;
     border-width: 1px;    
@@ -162,8 +193,8 @@ h1, h2, h3 {
     color: #3a3a3a;
 }
 
-/* Form section styling */
-.form-section {
+/* Feedback section styling */
+.feedback-section {
     clear: left;
     /* Picture taken from https://www.pexels.com/ */
     background: url("/assets/images/football-goalkeeper.webp");
@@ -230,38 +261,6 @@ h1, h2, h3 {
     color: #f16c6b;
 }
 
-/* Food section styling */
-.food-section {
-    clear: left;
-    /* Picture taken from https://www.pexels.com/ */
-    background: url("/assets/images/food.webp");
-    /* Include in case the picture does not load */
-    background-color: #cccccc;
-    background-size: cover;
-    background-position: center;
-    height: 860px;     
-    margin: 1%;
-}
-
-/* Football section styling */
-.football-section {
-    clear: left;
-    /* Picture taken from https://www.pexels.com/ */
-    background: url("/assets/images/football-ladies.webp");
-    /* Include in case the picture does not load */
-    background-color: #cccccc;
-    background-size: cover;
-    background-position: center;
-    height: 700px;     
-    margin: 1%;
-}
-
-/* Underline the active page */
-.active {
-    border-bottom: 3px solid #777;    
-}
-
-
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     
@@ -280,17 +279,12 @@ h1, h2, h3 {
         height: 180px;
         weight: 180px;  
     }
+
+    /* Football section styling, 80% height of original */
+    .football-section {
+        height: 560px;    
+    }
     
-    /* Map container styling, 80% height of original */
-    #map-container {
-        height: 400px;        
-    }
-
-    /* Form section styling, make it smaller */
-    .form-section {
-        height: 800px;      
-    }
-
     /* Page footer styling, 80% height of original */
     .page-footer {
         height: 140px;
@@ -301,11 +295,10 @@ h1, h2, h3 {
         height: 688px;    
     }
 
-     /* Football section styling, 80% height of original */
-     .football-section {
-        height: 560px;    
+    /* Feedback section styling, make it smaller */
+    .feedback-section {
+        height: 800px;      
     }
-
 }
 
 /* For small screens sizes from 800px wide and down */
@@ -327,16 +320,11 @@ h1, h2, h3 {
         weight: 135px;   
     }
 
-    /* Map container styling, 60% height of original */
-    #map-container {
-        height: 300px;        
+    /* Football section styling, 80% height of original */
+    .football-section {
+        height: 420px;    
     }
-
-    /* Form section styling, make it smaller */
-    .form-section {
-        height: 700px;      
-    }
-
+  
     /* Page footer styling, 60% height of original */
     .page-footer {
         height: 105px;
@@ -347,9 +335,8 @@ h1, h2, h3 {
         height: 516px;    
     }
 
-    /* Football section styling, 80% height of original */
-    .football-section {
-        height: 420px;    
+    /* Feedback section styling, make it smaller */
+    .feedback-section {
+        height: 700px;      
     }
-
 }
