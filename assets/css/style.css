@@ -243,6 +243,25 @@ h1, h2, h3 {
     margin: 1%;
 }
 
+/* Football section styling */
+.football-section {
+    clear: left;
+    /* Picture taken from https://www.pexels.com/ */
+    background: url("/assets/images/football-ladies.webp");
+    /* Include in case the picture does not load */
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    height: 700px;     
+    margin: 1%;
+}
+
+/* Underline the active page */
+.active {
+    border-bottom: 3px solid #777;    
+}
+
+
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     
@@ -280,6 +299,11 @@ h1, h2, h3 {
     /* Food section styling, 80% height of original */
     .food-section {
         height: 688px;    
+    }
+
+     /* Football section styling, 80% height of original */
+     .football-section {
+        height: 560px;    
     }
 
 }
@@ -321,6 +345,11 @@ h1, h2, h3 {
     /* Food section styling, 60% height of original */
     .food-section {
         height: 516px;    
+    }
+
+    /* Football section styling, 80% height of original */
+    .football-section {
+        height: 420px;    
     }
 
 }
