@@ -1,16 +1,16 @@
 /* Font pairing discovered on fontjoy.com */
 @import url('https://fonts.googleapis.com/css?family=Abril Fatface|Martel');
 
-/* Remove all of the margins, paddings and borders */ 
-*{
-    margin:0;
-    padding:0;
-    border:0;        
+/* Remove all of the margins, paddings and borders */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /* Primary font text styling */
 .primary-font {
-    font-family: 'Abril Fatface', sans-serif;  
+    font-family: 'Abril Fatface', sans-serif;
 }
 
 /* Secondary font text styling */
@@ -24,14 +24,16 @@
 .text-center {
     text-align: center;
 }
- 
+
 /* Text alignment left */
 .text-left {
     text-align: left;
 }
 
 /* Headings 1,2,3 styling */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     letter-spacing: 2px;
     color: #252525;
 }
@@ -39,20 +41,20 @@ h1, h2, h3 {
 /* Main header styling */
 .main-header {
     /* Picture taken from https://www.pexels.com/ */
-    background-image: url("/assets/images/header-background-image.webp"); 
+    background-image: url("/assets/images/header-background-image.webp");
     /* Include in case the picture does not load */
     background-color: #cccccc;
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;
 }
 
 /* Navigation styling */
 #nav {
     font-size: 120%;
     font-weight: bold;
-    letter-spacing: 4px;     
+    letter-spacing: 4px;
 }
 
 /* Navigation list items styling */
@@ -75,28 +77,28 @@ h1, h2, h3 {
 
 /* Underline the active page */
 .active {
-    border-bottom: 3px solid #777;    
+    border-bottom: 3px solid #777;
 }
 
 /* Logo styling */
 .logo {
     float: left;
     height: 225px;
-    weight: 225px;    
-    margin: 10px;      
+    width: 225px;
+    margin: 10px;
 }
 
 /* Info section content styling */
 .info-section {
-    margin: 1em;  
-    text-align: justify;   
+    margin: 1em;
+    text-align: justify;
 }
 
 /* Info section container styling */
 .info-container {
     max-width: 950px;
     margin: 0 auto;
-    padding: 0 1.5em;    
+    padding: 0 1.5em;
 }
 
 /* Football section styling */
@@ -108,7 +110,7 @@ h1, h2, h3 {
     background-color: #cccccc;
     background-size: cover;
     background-position: center;
-    height: 700px;     
+    height: 700px;
     margin: 1%;
 }
 
@@ -117,7 +119,7 @@ h1, h2, h3 {
     border-collapse: collapse;
     font-size: 0.9em;
     width: 95%;
-    margin: auto;   
+    margin: auto;
 }
 
 /* Events table headings styling */
@@ -127,17 +129,17 @@ h1, h2, h3 {
     color: white;
     background-color: black;
     border: 1px solid black;
-    padding: 4px 30px 4px 8px;    
+    padding: 4px 30px 4px 8px;
 }
 
 /* Events table rows data styling */
 .events-table tr {
-    border: 1px solid #777;    
+    border: 1px solid #777;
 }
 
 /* Events table data styling */
 .events-table td {
-    padding: 4px 30px 4px 8px; 
+    padding: 4px 30px 4px 8px;
 }
 
 /* Food section styling */
@@ -149,7 +151,7 @@ h1, h2, h3 {
     background-color: #cccccc;
     background-size: cover;
     background-position: center;
-    height: 860px;     
+    height: 860px;
     margin: 1%;
 }
 
@@ -160,7 +162,7 @@ h1, h2, h3 {
     padding: 10px;
     border-style: solid;
     border-color: #cccccc;
-    border-width: 1px;    
+    border-width: 1px;
     margin: auto;
 }
 
@@ -168,16 +170,16 @@ h1, h2, h3 {
 #map-cover {
     /* Picture (screenshot) map of Bandon taken from google maps */
     background: url("/assets/images/bandon-map.webp") no-repeat center;
-    height: 100%;    
+    height: 100%;
 }
 
 /* Page footer styling */
 .page-footer {
     background-color: #AE8F63;
-    background-size: cover; 
+    background-size: cover;
     color: black;
     margin: 1%;
-    height: 175px;
+    height: 200px;
 }
 
 /* Social networks list items styling */
@@ -202,7 +204,7 @@ h1, h2, h3 {
     background-color: #cccccc;
     background-size: cover;
     background-position: center;
-    height: 900px;     
+    height: 900px;
     margin: 2%;
 }
 
@@ -213,15 +215,15 @@ h1, h2, h3 {
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
-    left: 10%; 
-    padding: 30px; 
+    left: 10%;
+    padding: 30px;
 }
 
 /* Feedback-form h3 styling */
-.feedback-form > h3 {
+.feedback-form>h3 {
     color: #fafafa;
     margin-bottom: 20px;
-} 
+}
 
 /* Text-input styling */
 .text-input {
@@ -263,80 +265,80 @@ h1, h2, h3 {
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    
+
     /* Main header styling, 80% height of original */
     .main-header {
         height: 280px;
     }
 
-     /* Body text styling, 80% size of original */
+    /* Body text styling, 80% size of original */
     body {
         font-size: 80%;
-    }   
+    }
 
     /* Logo styling, 80% height and width of original */
     .logo {
         height: 180px;
-        weight: 180px;  
+        width: 180px;
     }
 
     /* Football section styling, 80% height of original */
     .football-section {
-        height: 560px;    
+        height: 560px;
     }
-    
+
     /* Page footer styling, 80% height of original */
     .page-footer {
-        height: 140px;
+        height: 160px;
     }
 
     /* Food section styling, 80% height of original */
     .food-section {
-        height: 688px;    
+        height: 688px;
     }
 
     /* Feedback section styling, make it smaller */
     .feedback-section {
-        height: 800px;      
+        height: 800px;
     }
 }
 
 /* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
-     /* Main header styling, 60% height of original */
-     .main-header {
+    /* Main header styling, 60% height of original */
+    .main-header {
         height: 210px;
     }
 
-     /* Body text styling, 60% size of original */
+    /* Body text styling, 60% size of original */
     body {
         font-size: 60%;
-    }   
+    }
 
     /* Logo styling, 60% height and width of original */
     .logo {
         height: 135px;
-        weight: 135px;   
+        width: 135px;
     }
 
     /* Football section styling, 80% height of original */
     .football-section {
-        height: 420px;    
+        height: 420px;
     }
-  
+
     /* Page footer styling, 60% height of original */
     .page-footer {
-        height: 105px;
+        height: 120px;
     }
 
     /* Food section styling, 60% height of original */
     .food-section {
-        height: 516px;    
+        height: 516px;
     }
 
     /* Feedback section styling, make it smaller */
     .feedback-section {
-        height: 700px;      
+        height: 700px;
     }
 }
