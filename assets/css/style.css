@@ -80,8 +80,8 @@ h3 {
     border-bottom: 3px solid #777;
 }
 
-/* Logo styling */
-.logo {
+/* Main logo styling */
+.main-logo {
     float: left;
     height: 225px;
     width: 225px;
@@ -112,6 +112,46 @@ h3 {
     background-position: center;
     height: 700px;
     margin: 1%;
+}
+
+/* Page footer styling */
+.page-footer {
+    background-color: #AE8F63;
+    background-size: cover;
+    color: black;
+    margin: 1%;
+    height: 300px;
+}
+
+/* Page footer span styling */
+.footer-span {
+    color: black;
+}
+
+/* Social networks list items styling */
+.social-networks li {
+    display: inline;
+}
+
+/* Social networks icons styling */
+.social-networks i {
+    font-size: 160%;
+    margin: 0.5%;
+    padding: 0.5%;
+    color: #3a3a3a;
+}
+
+/* Sponsors list items styling */
+.sponsors li {
+    display: inline;
+    margin: auto;
+    padding: auto; 
+}
+
+/* Sponsors logo styling */
+.sponsors-logo {
+    height: 100px;
+    width: 100px;    
 }
 
 /* Events table styling */
@@ -181,28 +221,6 @@ details>summary::marker {
     /* Picture (screenshot) map of Bandon taken from google maps */
     background: url("/assets/images/bandon-map.webp") no-repeat center;
     height: 100%;
-}
-
-/* Page footer styling */
-.page-footer {
-    background-color: #AE8F63;
-    background-size: cover;
-    color: black;
-    margin: 1%;
-    height: 200px;
-}
-
-/* Social networks list items styling */
-.social-networks li {
-    display: inline;
-}
-
-/* Social networks icons styling */
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 1%;
-    color: #3a3a3a;
 }
 
 /* Feedback section styling */
@@ -287,7 +305,7 @@ details>summary::marker {
     }
 
     /* Logo styling, 80% height and width of original */
-    .logo {
+    .main-logo {
         height: 180px;
         width: 180px;
     }
@@ -299,7 +317,13 @@ details>summary::marker {
 
     /* Page footer styling, 80% height of original */
     .page-footer {
-        height: 160px;
+        height: 240px;
+    }
+
+    /* Sponsors logo styling 80% height and width of original */
+    .sponsors-logo {
+        height: 80px;
+        width: 80px;    
     }
 
     /* Food section styling, 80% height of original */
@@ -310,7 +334,7 @@ details>summary::marker {
     /* Feedback section styling, make it smaller */
     .feedback-section {
         height: 800px;
-    }
+    }    
 }
 
 /* For small screens sizes from 800px wide and down */
@@ -326,8 +350,8 @@ details>summary::marker {
         font-size: 60%;
     }
 
-    /* Logo styling, 60% height and width of original */
-    .logo {
+    /* Main logo styling, 60% height and width of original */
+    .main-logo {
         height: 135px;
         width: 135px;
     }
@@ -339,7 +363,13 @@ details>summary::marker {
 
     /* Page footer styling, 60% height of original */
     .page-footer {
-        height: 120px;
+        height: 180px;
+    }
+
+    /* Sponsors logo styling 50% height and width of original */
+    .sponsors-logo {
+        height: 50px;
+        width: 50px;    
     }
 
     /* Food section styling, 60% height of original */
