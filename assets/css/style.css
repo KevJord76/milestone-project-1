@@ -142,6 +142,16 @@ h3 {
     padding: 4px 30px 4px 8px;
 }
 
+/* Events details summary cursor styling */
+details>summary {
+    cursor: pointer;
+}
+
+/* Events details summary marker styling */
+details>summary::marker {
+    color: #238a0b;
+}
+
 /* Food section styling */
 .food-section {
     clear: left;
