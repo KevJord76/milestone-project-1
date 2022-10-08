@@ -152,7 +152,6 @@ h3 {
 .sponsors li {
     display: inline;
     margin: auto;
-    padding: auto;
 }
 
 /* Sponsors logo styling */
@@ -175,7 +174,7 @@ h3 {
     font-size: 110%;
     color: white;
     background-color: black;
-    border: 1px solid black;
+    border: 1px solid #777;
     padding: 4px 30px 4px 8px;
 }
 
@@ -186,6 +185,7 @@ h3 {
 
 /* Events table data styling */
 .events-table td {
+    border: 1px solid #777;
     padding: 4px 30px 4px 8px;
 }
 
