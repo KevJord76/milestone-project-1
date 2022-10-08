@@ -128,6 +128,13 @@ h3 {
     color: black;
 }
 
+/* Copyright styling */
+.copyright {
+    margin-left: 10px;
+    color: white;
+    font-size: 70%;
+}
+
 /* Social networks list items styling */
 .social-networks li {
     display: inline;
@@ -145,13 +152,13 @@ h3 {
 .sponsors li {
     display: inline;
     margin: auto;
-    padding: auto; 
+    padding: auto;
 }
 
 /* Sponsors logo styling */
 .sponsors-logo {
     height: 100px;
-    width: 100px;    
+    width: 100px;
 }
 
 /* Events table styling */
@@ -323,7 +330,7 @@ details>summary::marker {
     /* Sponsors logo styling 80% height and width of original */
     .sponsors-logo {
         height: 80px;
-        width: 80px;    
+        width: 80px;
     }
 
     /* Food section styling, 80% height of original */
@@ -334,7 +341,7 @@ details>summary::marker {
     /* Feedback section styling, make it smaller */
     .feedback-section {
         height: 800px;
-    }    
+    }
 }
 
 /* For small screens sizes from 800px wide and down */
@@ -369,7 +376,7 @@ details>summary::marker {
     /* Sponsors logo styling 50% height and width of original */
     .sponsors-logo {
         height: 50px;
-        width: 50px;    
+        width: 50px;
     }
 
     /* Food section styling, 60% height of original */
