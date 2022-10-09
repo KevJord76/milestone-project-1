@@ -41,7 +41,7 @@ h3 {
 /* Main header styling */
 .main-header {
     /* Picture taken from https://www.pexels.com/ */
-    background-image: url("/assets/images/header-background-image.webp");
+    background-image: url("../images/header-background-image.webp");
     /* Include in case the picture does not load */
     background-color: #cccccc;
     height: 350px;
@@ -105,7 +105,7 @@ h3 {
 .football-section {
     clear: left;
     /* Picture taken from https://www.pexels.com/ */
-    background: url("/assets/images/football-ladies.webp");
+    background: url("../images/football-ladies.webp");
     /* Include in case the picture does not load */
     background-color: #cccccc;
     background-size: cover;
@@ -203,7 +203,7 @@ details>summary::marker {
 .food-section {
     clear: left;
     /* Picture taken from https://www.pexels.com/ */
-    background: url("/assets/images/food.webp");
+    background: url("../images/food.webp");
     /* Include in case the picture does not load */
     background-color: #cccccc;
     background-size: cover;
@@ -226,7 +226,7 @@ details>summary::marker {
 /* Map cover styling */
 #map-cover {
     /* Picture (screenshot) map of Bandon taken from google maps */
-    background: url("/assets/images/bandon-map.webp") no-repeat center;
+    background: url("../images/bandon-map.webp") no-repeat center;
     height: 100%;
 }
 
@@ -234,7 +234,7 @@ details>summary::marker {
 .feedback-section {
     clear: left;
     /* Picture taken from https://www.pexels.com/ */
-    background: url("/assets/images/football-goalkeeper.webp");
+    background: url("../images/football-goalkeeper.webp");
     /* Include in case the picture does not load */
     background-color: #cccccc;
     background-size: cover;
