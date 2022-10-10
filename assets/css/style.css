@@ -109,8 +109,9 @@ h3 {
     /* Include in case the picture does not load */
     background-color: #cccccc;
     background-size: cover;
-    background-position: center;
-    height: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 950px;
     margin: 1%;
 }
 
@@ -208,7 +209,7 @@ details>summary::marker {
     background-color: #cccccc;
     background-size: cover;
     background-position: center;
-    height: 860px;
+    height: 1100px;
     margin: 1%;
 }
 
@@ -239,7 +240,7 @@ details>summary::marker {
     background-color: #cccccc;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 1050px;
     margin: 2%;
 }
 
