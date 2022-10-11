@@ -208,7 +208,7 @@ details>summary::marker {
     /* Include in case the picture does not load */
     background-color: #cccccc;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     height: 1100px;
     margin: 1%;
 }
@@ -239,7 +239,7 @@ details>summary::marker {
     /* Include in case the picture does not load */
     background-color: #cccccc;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     height: 1050px;
     margin: 2%;
 }
