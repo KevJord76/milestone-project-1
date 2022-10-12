@@ -1,5 +1,6 @@
 # Bandon Summer Festival
 
+<!--- Project overview -->
 This is the first year that the Bandon Summer Festival is taking place and the Bandon Business Association committee,  who are organising the festival, have decided that they want to have an online presence. The website will provide the users of the site with information about what events are taking place during the three day festival, at what time they are on and where they are taking place. A handy map of Bandon is provided. The site also outlines information about who is sponsoring the festival and allows users to give feedback to the committee about any topic they wish to raise.  
 
 - __Responsive Design__
