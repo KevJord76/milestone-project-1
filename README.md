@@ -77,4 +77,13 @@ The feedback page provides a facility to give feedback about the festival.
 <!--- Future reference -->
     - This feedback form provided is just an example of how a user can provide feedback to the organisers of the festival. When the submit button is clicked the feedback is not saved to a database. For future reference, this feedback should be saved to a back-end database.
 
+### Features Left to Implement
+
+<!--- Future reference -->
+- As this is a fictional summer festival, if this were a website for a live festival event, a separate page would be provided giving more details about each of the festival events.
+
 # Testing
+
+## Bugs
+
+The live link can be found here - https://kevjord76.github.io/milestone-project-1/index.html 
