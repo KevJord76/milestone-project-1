@@ -239,6 +239,13 @@ details>summary::marker {
     height: 100%;
 }
 
+/* Map info styling */
+.map-info {    
+    color: black;
+    margin: 1% auto;
+    padding: 1%;
+}
+
 /* Feedback section styling */
 .feedback-section {
     clear: left;
