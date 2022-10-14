@@ -4,11 +4,9 @@
 <!--- Website overview -->
 This is the first year that the fictional Bandon Summer Festival is taking place and the Bandon Business Association committee, who are organising the festival, has decided that they want to have an online presence. The website will provide the users of the site with information about what events are taking place during the three day festival, at what time they are on and where they are taking place. A handy map of Bandon is provided. The site also outlines information about who is sponsoring the festival and allows users to give feedback to the committee about any topic they wish to raise.  
 
-<!--- Responsive design images -->
-- __Responsive Design__
+<!--- Responsive design image -->
 <p align="center">
-  <img src="./assets/images/responsive-home.jpg"/>
-  <img src="./assets/images/responsive-events.jpg"/>
+  <img src="./assets/images/responsive-home.jpg"/>  
 </p>
 
 <!--- Outline the features of the website -->
@@ -93,13 +91,24 @@ The feedback page provides a facility to give feedback about the festival.
 
 - I confirmed that my feedback form works, data must be entered in every field and a valid email address must be entered in the email field. The submit button blanks out the fields when clicked once valid data has been entered in every field. As I mentioned earlier, for future reference, this feedback data should be saved to a back-end database.
 
+<!--- Outline the validator testing done -->
+__Validator Testing__
+
+- HTML
+  - No errors were returned (I did get two warnings) when passing index.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Findex.html)
+  - No errors were returned (I did get one warning) when passing events.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fevents.html)
+  - No errors or warnings were returned when passing map.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fmap.html)
+  - No errors or warnings were returned when passing feedback.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Ffeedback.html)
+- CSS
+  - 1 error was displayed when passing style.css through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) (The error was in relation to the importation of my fonts but they do actually get imported)
+  
 <!--- Outline the bugs found -->
-## Bugs
+__Fixed Bugs__
 
 - When I deployed my website in Github the background images did not display in the browser. The reason for this was that I was using absolute rather than relative file paths to the images. Once I set the paths to relative paths, the background images displayed.
 
 - The biggest issue/problem that I encountered was to make sure that my screen/section heights and widths worked correctly on the different screen sizes. I had to make adjustments to these settings to get my responsive design to work correctly.
 
-
-
 The live link can be found here - https://kevjord76.github.io/milestone-project-1/index.html 
+
+
