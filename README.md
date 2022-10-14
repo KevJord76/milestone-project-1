@@ -93,6 +93,13 @@ The feedback page provides a facility to give feedback about the festival.
 
 - I confirmed that my feedback form works, data must be entered in every field and a valid email address must be entered in the email field. The submit button blanks out the fields when clicked once valid data has been entered in every field. As I mentioned earlier, for future reference, this feedback data should be saved to a back-end database.
 
+<!--- Outline the bugs found -->
 ## Bugs
+
+- When I deployed my website in Github the background images did not display in the browser. The reason for this was that I was using absolute rather than relative file paths to the images. Once I set the paths to relative paths, the background images displayed.
+
+- The biggest issue/problem that I encountered was to make sure that my screen/section heights and widths worked correctly on the different screen sizes. I had to make adjustments to these settings to get my responsive design to work correctly.
+
+
 
 The live link can be found here - https://kevjord76.github.io/milestone-project-1/index.html 
