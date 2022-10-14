@@ -242,6 +242,7 @@ details>summary::marker {
 /* Map info styling */
 .map-info {    
     color: black;
+    font-weight: bolder;
     margin: 1% auto;
     padding: 1%;
 }
