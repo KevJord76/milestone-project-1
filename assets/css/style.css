@@ -38,6 +38,11 @@ h3 {
     color: #252525;
 }
 
+/* Add shadow styling to festival header and dates */
+.add-shadow {
+    text-shadow: 2px 2px 2px #C0CEC0;
+}
+
 /* Main header styling */
 .main-header {
     /* Picture taken from https://www.pexels.com/ */
