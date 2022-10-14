@@ -208,10 +208,12 @@ details>summary::marker {
     background: url("../images/food.webp");
     /* Include in case the picture does not load */
     background-color: #cccccc;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 80vw;
+    margin: 0 auto;
     background-size: cover;
-    background-position: center center;
-    height: 1100px;
-    margin: 1%;
 }
 
 /* Map container styling */
@@ -330,11 +332,6 @@ details>summary::marker {
         width: 80px;
     }
 
-    /* Food section styling, make height smaller */
-    .food-section {
-        height: 688px;
-    }
-
     /* Feedback section styling, make it smaller */
     .feedback-section {
         height: 800px;
@@ -369,11 +366,6 @@ details>summary::marker {
     .sponsors-logo {
         height: 50px;
         width: 50px;
-    }
-
-    /* Food section styling, make height smaller */
-    .food-section {
-        height: 516px;
     }
 
     /* Feedback section styling, make it smaller */
