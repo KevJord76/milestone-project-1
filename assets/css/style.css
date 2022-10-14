@@ -108,11 +108,12 @@ h3 {
     background: url("../images/football-ladies.webp");
     /* Include in case the picture does not load */
     background-color: #cccccc;
-    background-size: cover;
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
-    height: 950px;
-    margin: 1%;
+    height: 60vh;
+    width: 80vw;
+    margin: 0 auto;
+    background-size: cover;
 }
 
 /* Page footer styling */
@@ -318,11 +319,6 @@ details>summary::marker {
         width: 180px;
     }
 
-    /* Football section styling, make height smaller */
-    .football-section {
-        height: 560px;
-    }
-
     /* Page footer styling, 80% height of original */
     .page-footer {
         height: 240px;
@@ -362,11 +358,6 @@ details>summary::marker {
     .main-logo {
         height: 135px;
         width: 135px;
-    }
-
-    /* Football section styling, make height smaller */
-    .football-section {
-        height: 420px;
     }
 
     /* Page footer styling, 60% height of original */
