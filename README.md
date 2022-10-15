@@ -103,7 +103,7 @@ __Validator Testing__
   - 1 error was displayed when passing style.css through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) (The error was in relation to the importation of my fonts but they do actually get imported)
 
 - Accessibility
-  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in Chrome DevTools
+  - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in Chrome DevTools
 
   <p align="center">
   <img src="./assets/images/lighthouse.jpg"/>
@@ -125,6 +125,7 @@ I would like to say thanks to Chris Quinn, who was my mentor for this project. H
 - The code and ideas to make the social media links and set-up the feedback form were taken from Code Institute's Love Running walkthrough project and modified to suit the needs of this website [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - The font pairing that I used for my primary and secondary fonts throughout the website were discovered on [Font Joy](https://fontjoy.com/)
+- The colour I used for my footer to match my header background image was designed on [Image Color Picker](https://imagecolorpicker.com/)
 
 ### Media
 
