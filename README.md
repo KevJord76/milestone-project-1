@@ -116,6 +116,8 @@ __Fixed Bugs__
 
 - The biggest issue/problem that I encountered was to make sure that my screen/section heights and widths worked correctly on the different screen sizes. I had to make adjustments to these settings to get my responsive design to work correctly.
 
+- I was getting a validation error on my style.css file when I was testing it on Jigsaw validator in relation to my import font line of code. I had to add a plus sign instead of a space to the primary font name that I was importing which solved my problem.
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
