@@ -83,9 +83,30 @@ The feedback page provides a facility to give feedback about the festival.
 <!--- Outline my testing -->
 # Testing
 
-- I tested that my website works in different browsers: Google Chrome, Microsoft Edge and Mozilla Firefox. I had to make some adjustments to my screen widths after this testing was completed.
+- I tested that my website works in different browsers: Google Chrome, Microsoft Edge and Mozilla Firefox, see below. I had to make some adjustments to my screen widths after this testing was completed.
 
-- I tested and confirmed that my website is responsive on different screen sizes using Chrome DevTools. I designed my website on a Laptop, therefore I did a lot of testing on smaller screens. When I tested it on a Desktop screen I had to make some adjustments to my section heights to make sure it works okay on larger screens.
+<!--- Google Chrome, Microsoft Edge and Mozilla Firefox screenshots -->
+Google Chrome
+<p align="center">
+  <img src="./assets/images/chrome.jpg"/>  
+</p>
+
+Microsoft Edge
+<p align="center">
+  <img src="./assets/images/edge.jpg"/>  
+</p>
+
+Mozilla Firefox
+<p align="center">
+  <img src="./assets/images/firefox.jpg"/>
+</p>
+
+- I tested and confirmed that my website is responsive on different screen sizes using Chrome DevTools. I designed my website on a Laptop, therefore I did a lot of testing on smaller screens. When I tested it on a Desktop screen I had to make some adjustments to my section heights to make sure it works okay on larger screens. I also tested the website on my mobile phone, see below.
+
+Samsung Galaxy A22 5G
+<p align="center">
+  <img src="./assets/images/samsung.jpg"/>
+</p>
 
 - I tested and confirmed that my navigation menu, home, events, map and feedback pages are all readable and have a good contrast between the background and foreground colours. I adjusted the colour of my page footer to resemble the page header for consistency purposes using image color picker. I also used two main fonts: one primary, Abril Fatface and one secondary, Martel. I discovered this font pairing on fontjoy.com.    
 
