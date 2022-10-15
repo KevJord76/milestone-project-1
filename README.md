@@ -9,6 +9,23 @@ This is the first year that the fictional Bandon Summer Festival is taking place
   <img src="./assets/images/responsive-home.jpg"/>  
 </p>
 
+<!--- Outline the user interface design principles and requirements -->
+# User Interface Design 
+
+As the designer of the website, I aimed to have a finished product that is consistent, predictable, useful and intuitive. It should also be easily learnable. The key principle and theme of the site is to provide the user with the following information:
+
+- What events are taking place at the festival?
+- When are the events taking place?
+- Where are the events taking place?
+
+## Essential Requirements
+
+- Contrast between background and foreground colours 
+- Consistency of colours between the header and the footer of the pages
+- Contrast between the primary and secondary fonts, with the primary font used for the headings and the secondary font used for the details
+- Optimization of the images included on the website by using .webp files
+- Minimize the numbers of choices on the screen at any one time to avoid cognitive overload 
+
 <!--- Outline the features of the website -->
 # Features
 
@@ -83,17 +100,17 @@ The feedback page provides a facility to give feedback about the festival.
 <!--- Outline my testing -->
 # Testing
 
-- I tested that my website works in different browsers: Google Chrome, Microsoft Edge and Mozilla Firefox, see below. I had to make some adjustments to my screen widths after this testing was completed.
+- I tested that my website works in different browsers: Microsoft Edge, Google Chrome and Mozilla Firefox, see below. I had to make some adjustments to my screen widths after this testing was completed.
 
 <!--- Google Chrome, Microsoft Edge and Mozilla Firefox screenshots -->
-Google Chrome
-<p align="center">
-  <img src="./assets/images/chrome.jpg"/>  
-</p>
-
 Microsoft Edge
 <p align="center">
   <img src="./assets/images/edge.jpg"/>  
+</p>
+
+Google Chrome
+<p align="center">
+  <img src="./assets/images/chrome.jpg"/>  
 </p>
 
 Mozilla Firefox
@@ -126,7 +143,7 @@ __Validator Testing__
 - Accessibility
   - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in Chrome DevTools
 
-  <p align="center">
+<p align="center">
   <img src="./assets/images/lighthouse.jpg"/>
 </p>
     
@@ -139,6 +156,7 @@ __Fixed Bugs__
 
 - I was getting a validation error on my style.css file when I was testing it on Jigsaw validator in relation to my import font line of code. I had to add a plus sign instead of a space to the primary font name that I was importing which solved my problem.
 
+<!--- Outline the deployment procedure -->
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -152,8 +170,9 @@ __Fixed Bugs__
 
 The live link can be found here - https://kevjord76.github.io/milestone-project-1/index.html 
 
-- In Github you can also [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) your repository
+- In GitHub you can also [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) a repository
 
+<!--- List the credits -->
 ## Credits 
 
 I would like to say thanks to Chris Quinn, who was my mentor for this project. He was very helpful and gave me a lot of encouragement when things were not going well for me.
