@@ -116,6 +116,15 @@ __Fixed Bugs__
 
 - The biggest issue/problem that I encountered was to make sure that my screen/section heights and widths worked correctly on the different screen sizes. I had to make adjustments to these settings to get my responsive design to work correctly.
 
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://kevjord76.github.io/milestone-project-1/index.html 
+
 ## Credits 
 
 I would like to say thanks to Chris Quinn, who was my mentor for this project. He was very helpful and gave me a lot of encouragement when things were not going well for me.
@@ -131,7 +140,3 @@ I would like to say thanks to Chris Quinn, who was my mentor for this project. H
 
 - The logos for Bandon Business Association and the sponsors of the festival were taken from [Bandon Business Association](https://www.bandonbusiness.com/)  
 - The images used for the background pictures on my website were taken from [Pexels](https://www.pexels.com/)
-
-The live link can be found here - https://kevjord76.github.io/milestone-project-1/index.html 
-
-
