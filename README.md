@@ -100,7 +100,7 @@ __Validator Testing__
   - No errors or warnings were returned when passing map.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fmap.html)
   - No errors or warnings were returned when passing feedback.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Ffeedback.html)
 - CSS
-  - 1 error was displayed when passing style.css through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) (The error was in relation to the importation of my fonts but they do actually get imported)
+  - No errors or warnings were returned when passing style.css through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
 - Accessibility
   - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in Chrome DevTools
