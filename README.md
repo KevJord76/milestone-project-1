@@ -116,6 +116,21 @@ __Fixed Bugs__
 
 - The biggest issue/problem that I encountered was to make sure that my screen/section heights and widths worked correctly on the different screen sizes. I had to make adjustments to these settings to get my responsive design to work correctly.
 
+## Credits 
+
+I would like to say thanks to Chris Quinn, who was my mentor for this project. He was very helpful and gave me a lot of encouragement when things were not going well for me.
+
+### Content 
+
+- The code and ideas to make the social media links and set-up the feedback form were taken from Code Institute's Love Running walkthrough project and modified to suit the needs of this website [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The font pairing that I used for my primary and secondary fonts throughout the website were discovered on [Font Joy](https://fontjoy.com/)
+
+### Media
+
+- The logos for Bandon Business Association and the sponsors of the festival were taken from [Bandon Business Association](https://www.bandonbusiness.com/)  
+- The images used for the background pictures on my website were taken from [Pexels](https://www.pexels.com/)
+
 The live link can be found here - https://kevjord76.github.io/milestone-project-1/index.html 
 
 
