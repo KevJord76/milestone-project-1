@@ -143,10 +143,16 @@ __Fixed Bugs__
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From the source section drop-down menu, select the Master/Main Branch
+  - Once the master/main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment, see below. 
+
+<p align="center">
+  <img src="./assets/images/deployment.jpg"/>  
+</p>
 
 The live link can be found here - https://kevjord76.github.io/milestone-project-1/index.html 
+
+- In Github you can also [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) your repository
 
 ## Credits 
 
