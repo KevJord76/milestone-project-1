@@ -133,12 +133,12 @@ Samsung Galaxy A22 5G
 __Validator Testing__
 
 - HTML
-  - No errors were returned (I did get two warnings) when passing index.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Findex.html)
-  - No errors were returned (I did get one warning) when passing events.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fevents.html)
-  - No errors or warnings were returned when passing map.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fmap.html)
-  - No errors or warnings were returned when passing feedback.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Ffeedback.html)
+  - No errors were returned when passing index.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Findex.html)
+  - No errors were returned when passing events.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fevents.html)
+  - No errors were returned when passing map.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fmap.html)
+  - No errors were returned when passing feedback.html through the official [(W3C) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Ffeedback.html)
 - CSS
-  - No errors or warnings were returned when passing style.css through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
+  - No errors were returned when passing style.css through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkevjord76.github.io%2Fmilestone-project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css) 
 
 - Accessibility
   - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in Chrome DevTools
