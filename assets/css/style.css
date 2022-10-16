@@ -93,21 +93,21 @@ h3 {
     margin: 10px;
 }
 
-/* Info section content styling */
-.info-section {
+/* Home page info content styling */
+.home-info {
     margin: 1em;
     text-align: justify;
 }
 
-/* Info section container styling */
-.info-container {
+/* Home page info container styling */
+.home-info-container {
     max-width: 970px;
     margin: 0 auto;
     padding: 0 1.5em;
 }
 
-/* Football section styling */
-.football-section {
+/* Football picture styling */
+.football-pic {
     clear: left;
     /* Picture taken from https://www.pexels.com/ */
     background: url("../images/football-ladies.webp");
@@ -206,8 +206,8 @@ details>summary::marker {
     color: #238a0b;
 }
 
-/* Food section styling */
-.food-section {
+/* Food picture styling */
+.food-pic {
     clear: left;
     /* Picture taken from https://www.pexels.com/ */
     background: url("../images/food.webp");
